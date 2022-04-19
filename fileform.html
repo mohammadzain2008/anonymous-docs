@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt your files</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="link">Home</a>
+        <a href="getfile.php" class="link">View a File</a>
+        <a href="downloadfile.php" class="link">Download a File</a>
+        <a href="deletefile.php" class="link">Delete a File</a>
+        <a href="readfolder.php" class="link">View a (<i>lost</i>) Folder</a>
+        <a href="deletefolder.php" class="link">Delete a Folder</a>
+        <a href="editfiledatacollector.php" class="link">Edit your File</a>
+    </div>
+    <h1>Encrypt your files here....</h1>
+    <form action="filemaker.php" method="POST">
+        Your Name: <br><input type="text" id="name" name="name" required>
+        <br> <br>
+        Your Code: <br><input type="password" id="code" name="code" required>
+        <br> <br>
+        Title: <br><input type="text" name="title" id="title" required>
+        <br> <br> 
+        Content:- <br><textarea name="content" id="content" cols="60" rows="10" required></textarea>
+        <br> <br>
+        <button type="submit" id="sub">Submit</button>
+    </form>
+
+</body>
+</html>

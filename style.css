@@ -1,0 +1,37 @@
+
+h2{
+    text-align: center;
+    margin: 30px 18px;
+}
+
+.desc{
+    line-height: 30px;
+    font-weight: 600;
+    text-align: justify;
+    margin: 10px 40px 10px 40px;
+}
+
+hr{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1.6px solid rgb(87, 87, 87);
+}
+
+.navbar{
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.link:hover{
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 1s ease;
+    transition-timing-function: ease-out;
+}
